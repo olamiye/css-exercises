@@ -7,8 +7,57 @@ body {
   font-family: Roboto, sans-serif;
 }
 
+.header{
+  display:flex;
+  justify-content: space-between;
+}
+
+.link-left{
+  display: flex;
+  gap: 15px;
+  align-items: center;
+  justify-content: space-between;
+  padding-left: 20px;
+  padding-top:20px ;
+  padding-right: 20px;
+}
+
+/*.link-right{
+  display: flex;
+  gap: 15px;
+  align-items: center;
+  justify-content: space-between;
+  padding-left: 20px;
+}*/
+.links-left{
+  display: flex;
+  gap: 15px;
+  align-items: center;
+  justify-content: space-between;
+  padding-left: 20px;
+  padding-top:20px ;
+  padding-right: 20px;
+  
+}
+
+
 img {
   width: 600px;
+}
+
+ul{
+  list-style-type: none;
+  text-decoration: none;
+}
+a{
+  text-decoration: none;
+}
+a:link{
+  color:black;
+}
+
+a:visited{
+  color: black;
 }
 
 button {
@@ -16,6 +65,7 @@ button {
   border: none;
   border-radius: 8px;
   background: #eee;
+  padding: 5px 10px;  
 }
 
 input {
@@ -24,4 +74,19 @@ input {
   padding: 8px 24px;
   width: 400px;
   margin-bottom: 16px;
+}
+
+.content{
+display:flex;
+flex-direction: column;
+align-items: center;
+}
+
+.footer{
+  display:flex;
+  justify-content:space-between;
+  background-color:#eeeeee;
+ /* min-height: 100vh;*/
+  margin-top: 220px;
+  padding-bottom: 10px;
 }
